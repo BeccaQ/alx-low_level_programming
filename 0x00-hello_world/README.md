@@ -4,3 +4,6 @@
 3-name, compile a C file $CFILE and create and executable file cisfun
 4-puts.c, print "Programming is like building a multilingual puzzle
 5-printf.c, print with proper grammar, but the outcome is a piece of art,
+6-size.c, print size of different types
+100-intel, print assembly code of $CFILE
+101-quote.c, print  and that piece of art is useful" - Dora Korpar, 2015-10-19
