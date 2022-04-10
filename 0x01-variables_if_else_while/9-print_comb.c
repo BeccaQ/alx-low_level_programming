@@ -17,8 +17,7 @@ int main(void)
 		if (l != '9')
 		putchar(',');
 		putchar(' ');
-		if (l == '9')
-		putchar('$');
 	}
+	putchar('\n');
 	return (0);
 }
