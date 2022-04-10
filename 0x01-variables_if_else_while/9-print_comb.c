@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * main -  print the single digit numbers,
- * seperated by commas.
+ * main -  print the alphabet in lowercase,
+ * followed by a new line.
  * Return: 0 always if successful.
  */
 
@@ -17,7 +17,8 @@ int main(void)
 		if (l != '9')
 		putchar(',');
 		putchar(' ');
+		if (l == '9')
+		putchar('$');
 	}
-	putchar('\n');
 	return (0);
 }
