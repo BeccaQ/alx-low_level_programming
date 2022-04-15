@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - checks if parameter is a number between 0 to 9.
- * ASCII: input number 48 rep 0 in ASCII.
+ * @c: input number.
  * Return: 1 if is a number (0 to 9), 0 in other case.
  */
 int _isdigit(int c)
