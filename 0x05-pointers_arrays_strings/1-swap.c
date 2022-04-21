@@ -5,7 +5,6 @@
  * swap_int -  swaps the values of two integers
  * @a: an integer
  * @b: another integer
- * @n: temporary value holder
  * Return: nothing
  */
 
