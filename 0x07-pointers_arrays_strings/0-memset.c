@@ -7,7 +7,7 @@
  * @s: a pointer
  * @b: a constant byte
  * @n: an unsigned int
- * Return: a pointer s
+ * Return: a pointer
  */
 
 char *_memset(char *s, char b, unsigned int n)
@@ -20,3 +20,4 @@ char *_memset(char *s, char b, unsigned int n)
 	}
 
 	return (s);
+}
