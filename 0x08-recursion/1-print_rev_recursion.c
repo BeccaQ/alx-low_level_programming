@@ -9,13 +9,9 @@
 
 void _print_rev_recursion(char *s)
 {
-	char  i = 0;
-
-	if (s[i] == '0')
+	if (*s != '\0')
 	{
-		return ('\n');
-		return;
+		_print_rev_recursion(s + 1);
+		_putchar(*s);
 	}
-	_putchar(*s)
-		return ('\n'); 
 }
