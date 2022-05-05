@@ -8,11 +8,10 @@
  * @y: multiple
  * Return: a number
  */
-
 int _prime_num(int x, int y)
 {
-	if (y <=1 || (x != y && y % x == 0))
-	{ 
+	if (y <= 1 || (x != y && y % x == 0))
+	{
 		return (0);
 	}
 	else if (x == y)
@@ -24,7 +23,7 @@ int _prime_num(int x, int y)
 
 /**
  * is_prime_number - tells whether a number
- * is prime number or not 
+ * is prime number or not
  * @n: an integer
  * Return: a number
  */
