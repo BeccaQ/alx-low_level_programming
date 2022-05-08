@@ -11,7 +11,7 @@ unsigned int x;
 int i;
 
 x = 0;
-while(*s)
+while (*s)
 {
 for (i = 0; accept[i]; i++)
 {
