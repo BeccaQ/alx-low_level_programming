@@ -1,16 +1,15 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
- * _strchr -  that locates a character in a string
- * @s: pointer to a char
- * @c: a char
- * Return: a pointer
+ * _strchr - locate a character in a string
+ * @s:string
+ * @c:char
+ * Return:pointer to char*
  */
-
 char *_strchr(char *s, char c)
 {
+
 	do {
+
 		if (*s == c)
 		{
 			break;
@@ -18,5 +17,5 @@ char *_strchr(char *s, char c)
 	} while
 		(*s++);
 
-	return (s);
+return (s);
 }
