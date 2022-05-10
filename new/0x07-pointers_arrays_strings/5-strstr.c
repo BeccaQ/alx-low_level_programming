@@ -1,15 +1,13 @@
 #include "main.h"
-
 /**
- * _strstr - checks for alphabetic character
- * @haystack: c is an ascii character
- * @needle: string
- * Return: 1 (if letter)
+ * _strstr - locate a substring
+ * @haystack:string
+ * @needle:string
+ * Return:string
  */
-
 char *_strstr(char *haystack, char *needle)
 {
-	int x;
+int x;
 
 	if (*needle == 0)
 		return (haystack);
@@ -25,7 +23,7 @@ char *_strstr(char *haystack, char *needle)
 					return (haystack);
 
 				x++;
-			
+
 			} while (haystack[x] == needle[x]);
 		}
 
