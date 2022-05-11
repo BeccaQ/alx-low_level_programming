@@ -4,6 +4,8 @@
 
 /**
  * main - prints name of the program
+ * @argc: number of command line argument
+ * @argv: argument vectors
  * Return: 0 on success
  */
 
