@@ -29,12 +29,12 @@ int main(int argc, char *argv[])
 	else if (argc == 2)
 	{
 		for (i = 0; i <  5 && num; i++)
-                {
-                        num2 = num / coin[i];
-                        change += num2;
-                        num -= num2 * coin[i];
-                }
-                printf("%d\n", change);
+		{
+			num2 = num / coin[i];
+			change += num2;
+			num -= num2 * coin[i];
+		}
+		printf("%d\n", change);
 	}
 	return (0);
 }
