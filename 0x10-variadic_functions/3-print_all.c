@@ -6,9 +6,8 @@
 /**
  * print_all - prints all types of parameters passed to it
  * followed by a new line
- * @separator: pointer to a character
- * @n: number of parameters
- * Return: sum of parameters
+ * @format: list of parameter types
+ * Return: parameters
  */
 
 void print_all(const char * const format, ...);
