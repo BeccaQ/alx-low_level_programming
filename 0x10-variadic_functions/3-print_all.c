@@ -10,10 +10,10 @@
  * Return: parameters
  */
 
-void print_all(const char * const format, ...);
+void print_all(const char * const format, ...)
 {
 	int i = 0;
-	char *str, comma = "";
+	char *str, *comma = "";
 
 	va_list(x);
 
@@ -23,10 +23,10 @@ void print_all(const char * const format, ...);
 	{
 		while (format[i])
 		{
-			switch (x)
+			switch (format[i])
 			{
 				case 'c':
-					printf("%s%c", comma, va_arg(x, char));
+					printf("%s%c", comma, va_arg(x, int));
 					break;
 				case 'i':
 					printf("%s%d", comma, va_arg(x, int));
@@ -38,7 +38,7 @@ void print_all(const char * const format, ...);
 					str = va_arg(x, char *);
 					if (!str)
 						str = "(nil)";
-					printf("%s%s", comma, va_arg(x, int));
+					printf("%s%s", comma, str);
 					break;
 				default:
 					i++;
@@ -46,7 +46,7 @@ void print_all(const char * const format, ...);
 			}
 
 			comma = ", ";
-			i++
+			i++;
 		}
 	}
 
