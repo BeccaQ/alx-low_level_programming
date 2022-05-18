@@ -25,11 +25,13 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	for (i = 0; i < n; i++)
 	{
-		if (i == n - 1)
-			printf("%d\n", va_arg(x, int));
-		else
+		if (!separator)
+			printf("%d", va_arg(x, int));
+		if (separator && i == n - 1)
+			printf("%d", va_arg(x, int));
+		else if (separator && i != n-1)
 			printf("%d%s", va_arg(x, int), separator);
 	}
-
+	printf("\n");
 	va_end(x);
 }
