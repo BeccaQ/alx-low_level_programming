@@ -5,7 +5,7 @@
 /**
  * array_range - allocates memory for an array, using malloc
  * @min: int
- * @max: int 
+ * @max: int
  * Return: a pointer to the new string
  */
 
@@ -20,10 +20,10 @@ int *array_range(int min, int max)
 	}
 	j = max - min + 1;
 	s = malloc(j * sizeof(int));
-	
+
 	if (!s)
 		return (NULL);
-	
+
 	for (i = min; i <= max; i++)
 	{
 		s[l] = i;

@@ -5,7 +5,7 @@
 /**
  * _realloc -reallocates memory block, using malloc and free
  * @old_size: int
- * @new_size: int 
+ * @new_size: int
  * Return: a pointer to the new string
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
