@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include "dog.h"
+#include <stdlib.h>
+
+/**
+ * new_dog - initialize a variable of type struct dog
+ * @d: function pointer
+ * Return: nothing
+ */
+
+dog_t *new_dog(char *name, float age, char *owner)
+{
+	
+	if (d == NULL)
+		return;
+	if (d->name == NULL)
+		d->name = "(nil)";
+	if (d->owner == NULL)
+		d->name = "(nil)";
+	printf("Name: %s\nAge: %f\nOwner: %s\n", d->name, d->age, d->owner);
+}
